@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0px 20px;
+}
+
+h1 {
+  font-size: 1.0em; /* Reduz o tamanho do título */
+  margin-bottom: 20px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button.active {
+  background-color: #21a1f1;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #21a1f1;
+}
